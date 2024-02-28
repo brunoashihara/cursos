@@ -4,4 +4,4 @@ Repositório para estudos.
 
 ## Cursos
 
-+ [AVIATRIX](https://github.com/brunoashihara/cursos/blob/main/aviatrix/README.md)
++ [AVIATRIX](https://github.com/brunoashihara/cursos/blob/main/aviatrix/)
