@@ -1,4 +1,4 @@
-# Quiz e informaões de cursos
+# Quiz e informações de cursos
 
 Repositório para estudos.
 
