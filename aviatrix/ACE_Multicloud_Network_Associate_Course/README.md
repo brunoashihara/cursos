@@ -432,3 +432,117 @@
     - [ ] Segmentation of workloads that can meet auditing and compliance requirements
     - [ ] Segmentation across accounts, subscriptions, and projects
     - [x] All of the above
+
+## Feature Overview - Part 2 - Quiz
+
+1. What are some challenges with inserting firewalls in the cloud?
+   - [ ] Repackaged Firewall Solution from on-premises world
+   - [ ] Native Firewall Solutions are primarily L4 firewalls
+   - [ ] Customer required to configure and manage routing
+   - [x] All of the above
+
+2. What is the advantage of the Centralized Stateful Firewall on Aviatrix Single AZ HA?
+   - [ ] Separation of duties (App team manages instance security; Network team manages transit security)
+   - [ ] No need for a load balancer
+   - [ ] Multi-cloud repeatability
+   - [x] All of the above
+
+3. What advantages does the Aviatrix Site2Cloud offer?
+   - [ ] Support for Network Address Translation (NAT)
+   - [ ] Support for TCP and UDP tunnels
+   - [ ] Uses a template-driven manner for configuration
+   - [x] All of the above
+
+4. True or false: Aviatrix FireNet can orchestrate the firewall deployment, firewall routing, and VNet/VPC routing for NGFW insertion.
+   - [x] True
+   - [ ] False
+
+5. True or false: The Aviatrix User VPN solution does not allow profile-based granular access control.
+   - [ ] True
+   - [x] False
+
+6. Which third-party integrations are available for Aviatrix User VPN?
+   - [ ] DUO
+   - [ ] Okta
+   - [ ] AD
+   - [ ] SAML
+   - [x] All of the above
+
+7. True or false: With Aviatrix Transit FireNet, workloads cannot be placed in different segments AND be inspected by NGFWs without losing visibility.
+   - [ ] True
+   - [x] False
+
+8. True or false: Aviatrix can provide filtering of partner route advertisements through a BGP Approval Process.
+   - [x] True
+   - [ ] False
+
+9. Which Aviatrix feature allows customers to group VPC/VNets with common security properties for access?
+   - [x] FireNet
+   - [ ] Security Domains (also known as Segments)
+   - [ ] Site2Cloud
+   - [ ] CloudWAN
+
+10. True or false: Aviatrix Site2Cloud can also be used to onboard IoT devices.
+    - [x] True
+    - [ ] False
+
+## Day 2 Operations - Quiz
+
+1. True or false: Aviatrix is a multi-cloud Terraform provider.
+   - [x] True
+   - [ ] False
+
+2. True or false: Aviatrix cannot provide packet captures of live traffic.
+   - [ ] True
+   - [x] False
+
+3. True or false: The VPC tracker is only available for AWS.
+   - [ ] True
+   - [x] False
+
+4. What does Aviatrix use for Controller HA in AWS?
+   - [ ] a Lambda script
+   - [ ] an S3 bucket
+   - [ ] an auto scaling group
+   - [x] All of the above
+
+5. How does FlightPath help users troubleshoot connectivity problems?
+   - [ ] Allows the gateways to be access via API to perform queries
+   - [ ] Provides a packet capture of specific network flows
+   - [x] Provides a visual walk-through based on source and destination to highlight path issues
+   - [ ] Provides ping and traceroute capabilities for source and destination
+
+6. What are some operational challenges that customers face in the cloud?
+   - [ ] Tier-3 becomes Tier-1 for troubleshooting
+   - [ ] Limited visibility into native constructs
+   - [ ] Lack of standard troubleshooting tools (ping, traceroute, etc.)
+   - [x] All of the above
+
+7. True or false: The Aviatrix Controller can perform auditing of routing constructs. This ensures that no new routes have been added that can affect end-to-end network correctness.
+   - [x] True
+   - [ ] False
+
+8. True or false: Common troubleshooting tasks like ping and traceroute can be run from any Aviatrix gateway.
+   - [x] True
+   - [ ] False
+
+9. What happens when the Aviatrix components require upgrades?
+   - [ ] Downtime is required for all upgrades
+   - [x] Upgrades are hitless
+   - [ ] The controller must be rebooted after upgrades
+   - [ ] The gateways must be rebooted after upgrades
+
+10. Which of the following statements is true?
+    - [ ] Customers must spin up a controller per subscription/account
+    - [ ] Customers must spin up a controller per cloud environment
+    - [ ] Customers can spin up a single controller but can only on-board one master account per cloud
+    - [x] Customers can spin up a single controller and on-board multiple cloud accounts for management
+
+
+
+
+
+
+
+
+
