@@ -80,3 +80,31 @@
    - [ ] plataforma de proteção de endpoint (EPP)
 
 ### Modulo 4
+
+1. Qual princípio de privacidade da Microsoft define o uso e o gerenciamento de chaves de criptografia?
+
+   - [ ] transparência
+   - [x] segurança
+   - [ ] controle
+   - [ ] forte proteção legal
+
+2. O que você pode usar para monitorar comunicações que contenham informações confidenciais e minimizar o risco exposto?
+
+   - [x] o portal de conformidade do Microsoft Purview
+   - [ ] o Portal de Confiança de Serviço da Microsoft
+   - [ ] Microsoft Defender para nuvem
+   - [ ] Microsoft Intune
+
+3. O que você pode usar para evitar a divulgação inadvertida de informações confidenciais compartilhadas no Microsoft Teams?
+
+   - [ ] Microsoft Defender para nuvem
+   - [ ] Pastas de trabalho do Microsoft Sentinel
+   - [x] Políticas de prevenção de perda de dados (DLP) do Microsoft Purview
+   - [ ] Links seguros do Microsoft Defender para Office 365
+
+4. O que pode ajudá-lo a identificar os documentos necessários para uma auditoria de conformidade?
+
+   - [ ] o Portal de Confiança de Serviço da Microsoft
+   - [ ] Proteção de Informações do Azure (AIP)
+   - [ ] Conformidade de comunicação do Microsoft Purview
+   - [x] Descoberta eletrônica do Microsoft Purview
