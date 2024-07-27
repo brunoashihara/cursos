@@ -2,21 +2,6 @@
 
 ## Practice Exam
 
-1. Qual método de criptografia usa a mesma chave para criptografar e descriptografar dados?
-   - [x] criptografia simétrica
-   - [ ] criptografia assimétrica
-   - [ ] Hash
-
-2. O que é um princípio orientador do modelo confiança zero?
-   - [x] verificar explicitamente
-   - [ ] acesso Avançado de Usuário
-   - [ ] teste de violação
-   - [ ] confiar na rede local
-
-3. Qual pilar de uma infraestrutura de identidade é responsável por definir o nível de acesso que um usuário tem sobre os recursos em uma rede?
-   - [ ] administração
-   - [ ] autenticação
-
 1. Which statement is true about Fine-tuning and Parameter-Efficient Fine-Tuning (PEFT)?
    - [ ] PEFT requires replacing the entire model architecture with a new one designed specifically for the new task, making it significantly more data-intensive than Fine-tuning.
    - [ ] Fine-tuning and PEFT do not involve model modification; they differ only in the type of data used for training, with Fine-tuning requiring labeled data and PEFT using unlabeled data.
