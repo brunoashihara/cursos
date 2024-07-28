@@ -15,16 +15,16 @@
    - [ ] To store text in an external database without using it for generation
 
 3. How are documents usually evaluated in the simplest form of keyword-based search?
-   - [x] Based on the number of images and videos contained in the documents
+   - [ ] Based on the number of images and videos contained in the documents
    - [ ] By the complexity of language used in the documents
-   - [ ] Based on the presence and frequency of the user-provided keywords
+   - [x] Based on the presence and frequency of the user-provided keywords
    - [ ] According to the length of the documents
 
 4. Why is it challenging to apply diffusion models to text generation?
    - [ ] Because diffusion models can only produce images
-   - [x] Because text generation does not require complex models
+   - [ ] Because text generation does not require complex models
    - [ ] Because text is not categorical
-   - [ ] Because text representation is categorical unlike images
+   - [x] Because text representation is categorical unlike images
 
 5. When is fine-tuning an appropriate method for customizing a Large Language Model (LLM)?
    - [ ] When the LLM already understands the topics necessary for text generation
@@ -148,7 +148,7 @@ memory = ConversationBufferMemory(chat_memory=history)
     - [x] Increasing the temperature removes the impact of the most likely word.
 
 25. Which LangChain component is responsible for generating the linguistic output in a chatbot system?
-    - [ ] LLMs
+    - [x] LLMs
     - [ ] Documents Loaders
     - [ ] Vector Stores
-    - [x] LangChain Application
+    - [ ] LangChain Application
