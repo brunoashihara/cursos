@@ -63,10 +63,10 @@
     - [ ] Hierarchical relationships; important for structuring database queries
 
 11. What do prompt templates use for templating in language model applications?
-    - [ ] Python's str.format syntax
+    - [x] Python's str.format syntax
     - [ ] Python's lambda functions
     - [ ] Python's class and object structures
-    - [x] Python's list comprehension syntax
+    - [ ] Python's list comprehension syntax
 
 12. How does the structure of vector databases differ from traditional relational databases?
     - [ ] It uses simple row-based data storage.
@@ -82,6 +82,7 @@
 
 14. Given the following code block: history = StreamlitChatMessageHistory(key="chat_messages")
 memory = ConversationBufferMemory(chat_memory=history)
+Which statement is NOT true about StreamlitChatMessageHistory?
     - [ ] A given StreamlitChatMessageHistory will not be shared across user sessions.
     - [ ] A given StreamlitChatMessageHistory will NOT be persisted.
     - [ ] StreamlitChatMessageHistory will store messages in Streamlit session state at the specified key.
@@ -136,10 +137,10 @@ memory = ConversationBufferMemory(chat_memory=history)
     - [ ] It applies a penalty only if the token has appeared more than twice.
 
 23. What does a cosine distance of 0 indicate about the relationship between two embeddings?
-    - [ ] They are similar in direction
+    - [x] They are similar in direction
     - [ ] They are unrelated
     - [ ] They are completely dissimilar
-    - [x] They have the same magnitude
+    - [ ] They have the same magnitude
 
 24. How does the temperature setting in a decoding algorithm influence the probability distribution over the vocabulary?
     - [ ] Temperature has no effect on probability distribution; it only changes the speed of decoding.
