@@ -144,9 +144,9 @@ Which statement is NOT true about StreamlitChatMessageHistory?
 
 24. How does the temperature setting in a decoding algorithm influence the probability distribution over the vocabulary?
     - [ ] Temperature has no effect on probability distribution; it only changes the speed of decoding.
-    - [ ] Increasing the temperature flattens the distribution, allowing for more varied word choices.
+    - [x] Increasing the temperature flattens the distribution, allowing for more varied word choices.
     - [ ] Decreasing the temperature broadens the distribution, making less likely words more probable.
-    - [x] Increasing the temperature removes the impact of the most likely word.
+    - [ ] Increasing the temperature removes the impact of the most likely word.
 
 25. Which LangChain component is responsible for generating the linguistic output in a chatbot system?
     - [x] LLMs
