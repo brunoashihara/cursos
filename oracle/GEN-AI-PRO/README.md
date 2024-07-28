@@ -153,3 +153,133 @@ Which statement is NOT true about StreamlitChatMessageHistory?
     - [ ] Documents Loaders
     - [ ] Vector Stores
     - [ ] LangChain Application
+
+## Skill Check
+
+### Fundamentals of Large Language Models
+
+1. What does in-context learning in Large Language Models involve?
+   - [ ] Training the model using reinforcement learning
+   - [ ] Adding more layers to the model
+   - [ ] Pretraining the model on a specific domain
+   - [x] Conditioning the model with task-specific instructions or demonstrations
+
+2. What does the term "hallucination" refer to in the context of Language Large Models (LLMs)?
+   - [x] The phenomenon where the model generates factually incorrect information or unrelated content as if it were true
+   - [ ] The model's ability to generate imaginative and creative content
+   - [ ] The process by which the model visualizes and describes images in detail
+   - [ ] A technique used to enhance the model's performance on specific tasks
+
+3. What is the role of temperature in the decoding process of a Large Language Model (LLM)?
+   - [x] To adjust the sharpness of probability distribution over vocabulary when selecting the next word
+   - [ ] To determine the number of words to generate in a single decoding step
+   - [ ] To increase the accuracy of the most likely word in the vocabulary
+   - [ ] To decide to which part of speech the next word should belong
+
+4. Which statement accurately reflects the differences between these approaches in terms of the number of parameters modified and the type of data used?
+   - [x] Fine-tuning modifies all parameters using labeled, task-specific data, whereas Parameter Efficient Fine-Tuning updates a few, new parameters also with labeled, task-specific data.
+   - [ ] Soft prompting and continuous pretraining are both methods that require no modification to the original parameters of the model.
+   - [ ] Fine-tuning and continuous pretraining both modify all parameters and use labeled, task-specific data.
+   - [ ] Parameter Efficient Fine Tuning and Soft prompting modify all parameters of the model using unlabeled data.
+
+5. What is prompt engineering in the context of Large Language Models (LLMs)?
+   - [ ] Training the model on a large data set
+   - [ ] Adding more layers to the neural network
+   - [ ] Adjusting the hyperparameters of the model
+   - [x] Iteratively refining the ask to elicit a desired response
+
+### OCI Generative AI Service Deep Dive
+
+1. What is the main advantage of using few-shot model prompting to customize a Large Language Model (LLM)?
+   - [ ] It allows the LLM to access a larger data set.
+   - [ ] It eliminates the need for any training or computational resources.
+   - [x] It provides examples in the prompt to guide the LLM to better performance with no training cost.
+   - [ ] It significantly reduces the latency for each model request.
+
+2. Which is a distinctive feature of GPUs in Dedicated AI Clusters used for generative AI tasks?
+   - [x] The GPUs allocated for a customer’s generative AI tasks are isolated from other GPUs.
+   - [ ] Each customer's GPUs are connected via a public Internet network for ease of access.
+   - [ ] GPUs are shared with other customers to maximize resource utilization.
+   - [ ] GPUs are used exclusively for storing large data sets, not for computation.
+
+3. What is the purpose of frequency penalties in language model outputs?
+   - [ ] To reward the tokens that have never appeared in the text
+   - [x] To penalize tokens that have already appeared, based on the number of times they have been used
+   - [ ] To ensure that tokens that appear frequently are used more often
+   - [ ] To randomly penalize some tokens to increase the diversity of the text
+
+4. What is the purpose of embeddings in natural language processing?
+   - [ ] To translate text into a different language
+   - [ ] To compress text data into smaller files for storage
+   - [ ] To increase the complexity and size of text data
+   - [x] To create numerical representations of text that capture the meaning and relationships between words or phrases
+
+5. What happens if a period (.) is used as a stop sequence in text generation?
+   - [ ] The model stops generating text after it reaches the end of the current paragraph.
+   - [x] The model stops generating text after it reaches the end of the first sentence, even if the token limit is much higher.
+   - [ ] The model ignores periods and continues generating text until it reaches the token limit.
+   - [ ] The model generates additional sentences to complete the paragraph.
+
+### Building Blocks for an LLM Application
+
+1. What do embeddings in Large Language Models (LLMs) represent?
+   - [ ] The grammatical structure of sentences in the data
+   - [x] The semantic content of data in high-dimensional vectors
+   - [ ] The color and size of the font in textual data
+   - [ ] The frequency of each word or pixel in the data
+
+2. What differentiates Semantic search from traditional keyword search?
+   - [ ] It is based on the date and author of the content.
+   - [ ] It depends on the number of times keywords appear in the content.
+   - [x] It involves understanding the intent and context of the search.
+   - [ ] It relies solely on matching exact keywords in the content.
+
+3. What does the Ranker do in a text generation system?
+   - [ ] It sources information from databases to use in text generation.
+   - [x] It evaluates and prioritizes the information retrieved by the Retriever.
+   - [ ] It generates the final text based on the user's query.
+   - [ ] It interacts with the user to understand the query better.
+
+4. What is the function of the Generator in a text generation system?
+   - [ ] To collect user queries and convert them into database search terms
+   - [ ] To store the generated responses for future use
+   - [x] To generate human-like text using the information retrieved and ranked, along with the user's original query
+   - [ ] To rank the information based on its relevance to the user's query
+
+5. Which is a key characteristic of Large Language Models (LLMs) without Retrieval Augmented Generation (RAG)?
+   - [x] They rely on internal knowledge learned during pretraining on a large text corpus.
+   - [ ] They always use an external database for generating responses.
+   - [ ] They cannot generate responses without fine-tuning.
+   - [ ] They use vector databases exclusively to produce answers.
+
+### Build an LLM Application using OCI Generative AI Service
+
+1. How are chains traditionally created in LangChain?
+   - [ ] Declaratively, with no coding required
+   - [ ] By using machine learning algorithms
+   - [ ] Exclusively through third-party software integrations
+   - [x] Using Python classes, such as LLM Chain and others
+
+2. What is the function of "Prompts" in the chatbot system?
+   - [ ] They are responsible for the underlying mechanics of the chatbot.
+   - [ ] They store the chatbot's linguistic knowledge.
+   - [x] They are used to initiate and guide the chatbot's responses.
+   - [ ] They handle the chatbot's memory and recall abilities.
+
+3. What is the purpose of memory in the LangChain framework?
+   - [ ] To act as a static database for storing permanent records
+   - [x] To store various types of data and provide algorithms for summarizing past interactions
+   - [ ] To retrieve user input and provide real-time output only
+   - [ ] To perform complex calculations unrelated to user interaction
+
+4. How are prompt templates typically designed for language models?
+   - [ ] To be used without any modification or customization
+   - [ ] As complex algorithms that require manual compilation
+   - [ ] To work only with numerical data instead of textual content
+   - [x] As predefined recipes that guide the generation of language model prompts
+
+5. What is LCEL in the context of LangChain Chains?
+   - [ ] A programming language used to write documentation for LangChain
+   - [x] A declarative way to compose chains together using LangChain Expression Language
+   - [ ] An older Python library for building Large Language Models
+   - [ ] A legacy method for creating chains in LangChain
